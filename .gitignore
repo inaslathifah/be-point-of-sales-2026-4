@@ -1,0 +1,4 @@
+# gitignore ini untuk melarang folder ini agar tidak masuk ke git
+
+node_modules
+.env
