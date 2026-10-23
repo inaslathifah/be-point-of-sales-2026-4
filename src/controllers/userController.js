@@ -103,7 +103,7 @@ export const updateUser = async (req, res) => {
     }
     const user = await prisma.user.update({
       where: { id: id },
-      data: { dataUpdate },
+      data: dataUpdate,
       select: {
         id: true,
         name: true,
