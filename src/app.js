@@ -12,7 +12,7 @@ app.use(express.json());
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/category", categoryRoutes);
-app.use("/api/product", productsRoutes);
+app.use("/api/products", productsRoutes);
 app.use("/api/transaction", transactionRoutes);
 
 app.get("/", (req, res) => {
